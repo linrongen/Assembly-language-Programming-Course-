@@ -1,0 +1,57 @@
+   0x0000060c <+0>:	push   %ebp
+   0x0000060d <+1>:	mov    %esp,%ebp
+   0x0000060f <+3>:	sub    $0x10,%esp
+   0x00000612 <+6>:	call   0x6a0 <__x86.get_pc_thunk.ax>
+   0x00000617 <+11>:	add    $0x19bd,%eax
+   0x0000061c <+16>:	movl   $0x0,-0x4(%ebp)
+   0x00000623 <+23>:	mov    0x8(%ebp),%edx
+   0x00000626 <+26>:	sub    $0x3,%edx
+   0x00000629 <+29>:	cmp    $0xa,%edx
+   0x0000062c <+32>:	ja     0x68e <switchCase+130>
+   0x0000062e <+34>:	shl    $0x2,%edx
+   0x00000631 <+37>:	mov    -0x1880(%edx,%eax,1),%edx
+   0x00000638 <+44>:	add    %edx,%eax
+   0x0000063a <+46>:	jmp    *%eax
+   0x0000063c <+48>:	mov    0x8(%ebp),%eax
+   0x0000063f <+51>:	sar    %eax
+   0x00000641 <+53>:	mov    %eax,-0x4(%ebp)
+   0x00000644 <+56>:	jmp    0x695 <switchCase+137>
+   0x00000646 <+58>:	mov    0x8(%ebp),%eax
+   0x00000649 <+61>:	add    %eax,%eax
+   0x0000064b <+63>:	sub    $0x3,%eax
+   0x0000064e <+66>:	mov    %eax,-0x4(%ebp)
+   0x00000651 <+69>:	jmp    0x695 <switchCase+137>
+   0x00000653 <+71>:	mov    0x8(%ebp),%eax
+   0x00000656 <+74>:	lea    0x3(%eax),%edx
+   0x00000659 <+77>:	test   %eax,%eax
+   0x0000065b <+79>:	cmovs  %edx,%eax
+   0x0000065e <+82>:	sar    $0x2,%eax
+   0x00000661 <+85>:	add    $0x1,%eax
+   0x00000664 <+88>:	mov    %eax,-0x4(%ebp)
+--Type <RET> for more, q to quit, c to continue without paging--c
+   0x00000667 <+91>:	jmp    0x695 <switchCase+137>
+   0x00000669 <+93>:	mov    0x8(%ebp),%edx
+   0x0000066c <+96>:	mov    %edx,%eax
+   0x0000066e <+98>:	add    %eax,%eax
+   0x00000670 <+100>:	add    %edx,%eax
+   0x00000672 <+102>:	add    $0x5,%eax
+   0x00000675 <+105>:	mov    %eax,-0x4(%ebp)
+   0x00000678 <+108>:	jmp    0x695 <switchCase+137>
+   0x0000067a <+110>:	mov    0x8(%ebp),%eax
+   0x0000067d <+113>:	mov    %eax,%edx
+   0x0000067f <+115>:	shr    $0x1f,%edx
+   0x00000682 <+118>:	add    %edx,%eax
+   0x00000684 <+120>:	sar    %eax
+   0x00000686 <+122>:	sub    $0x6,%eax
+   0x00000689 <+125>:	mov    %eax,-0x4(%ebp)
+   0x0000068c <+128>:	jmp    0x695 <switchCase+137>
+   0x0000068e <+130>:	mov    0x8(%ebp),%eax
+   0x00000691 <+133>:	mov    %eax,-0x4(%ebp)
+   0x00000694 <+136>:	nop
+   0x00000695 <+137>:	mov    0x8(%ebp),%eax
+   0x00000698 <+140>:	add    %eax,-0x4(%ebp)
+   0x0000069b <+143>:	mov    -0x4(%ebp),%eax
+   0x0000069e <+146>:	leave  
+   0x0000069f <+147>:	ret    
+End of assembler dump.
+	
